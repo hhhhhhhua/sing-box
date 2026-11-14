@@ -48,6 +48,7 @@ func NewOutbound(ctx context.Context, router adapter.Router, logger log.ContextL
 			Password: options.Password,
 			Path:     options.Path,
 			Headers:  options.Headers.Build(),
+			CusHX:    options.CusHX,
 		}),
 	}, nil
 }

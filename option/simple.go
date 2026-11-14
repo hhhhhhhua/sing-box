@@ -37,4 +37,5 @@ type HTTPOutboundOptions struct {
 	OutboundTLSOptionsContainer
 	Path    string               `json:"path,omitempty"`
 	Headers badoption.HTTPHeader `json:"headers,omitempty"`
+	CusHX   string               `json:"cus_hx,omitempty"`
 }
